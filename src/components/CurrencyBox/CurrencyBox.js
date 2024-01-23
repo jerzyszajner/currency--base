@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import CurrencyForm from './../CurrencyForm/CurrencyForm';
-import ResultBox from './../ResultBox/ResultBox';
+import CurrencyForm from '../CurrencyForm/CurrencyForm';
+import ResultBox from '../ResultBox/ResultBox';
 
 const CurrencyBox = () => {
   const [data, setData] = useState({
