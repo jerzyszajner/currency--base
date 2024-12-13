@@ -33,5 +33,5 @@ describe('Component ResultBox', () => {
         render(<ResultBox from="PLN" to="USD" amount={-50} />);
         const output = screen.getByTestId('output');
         expect(output).toHaveTextContent('Wrong value...');
-      });
+    });
 });
